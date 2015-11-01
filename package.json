@@ -1,9 +1,14 @@
 {
-	"name": "node-openzipkin-thrift",
+	"name": "openzipkin-thriftrw",
 	"version": "1.0.0",
-	"description": "Generated Thrift stubs for the OpenZipkin codebase",
-	"keywords": ["openzipkin", "zipkin", "tracing"],
-	"main": "node-openzipkin.js",
+	"description": "Generated Thriftify Thrift stubs for the OpenZipkin codebase",
+	"keywords": [
+		"openzipkin",
+		"zipkin",
+		"thriftrw",
+		"tracing"
+	],
+	"main": "openzipkin-thriftrw.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -12,5 +17,8 @@
 		"url": "https://archive.voodoowarez.com/node-openzipkin-thrift"
 	},
 	"author": "rektide de la faye",
-	"license": "X"
+	"license": "X",
+	"dependencies": {
+		"thriftrw": "^2.5.2"
+	}
 }

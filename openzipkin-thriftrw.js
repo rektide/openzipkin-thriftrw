@@ -3,21 +3,25 @@ var
   path= require( "path"),
   Thrift= require( "thriftrw").Thrift
 
-function fetch(file){
+function make(file){
+	console.log( file)
 	var
 	  fullpath= path.join( __dirname, "thrift", file+ ".thrift"),
-	  source= fs.readFileSync( fullpath, "utf8")
-	return source
+	  source= fs.readFileSync( fullpath, "utf8"),
+	  thrift= new Thrift({
+		source: source,
+		strict: false
+	  })
+	return thrift
 }
 
 var
-  files= ["scribe", "zipkinCollector", "zipkinCore", "zipkinDependencies", "zipkinQuery"]
-  fetch= files.map( fetch),
-  content= fetch.join("")
+  files= ["scribe", "zipkinDependencies", "zipkinCore", "zipkinCollector", "zipkinQuery"]
 
-console.log(content)
-
-module.exports= new Thrift({
-	source: content
+files.forEach( function(file){
+	try {
+		module.exports[ file]= make( file)
+	}catch(ex){
+		console.error( "Failed to build '"+ file+ "':", ex)
+	}
 })
-

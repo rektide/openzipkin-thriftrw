@@ -1,7 +1,7 @@
 {
 	"name": "openzipkin-thriftrw",
-	"version": "1.0.0",
-	"description": "Generated Thriftify Thrift stubs for the OpenZipkin codebase",
+	"version": "0.0.1",
+	"description": "Generated Thrifrw Thrift stubs for the OpenZipkin codebase",
 	"keywords": [
 		"openzipkin",
 		"zipkin",
@@ -14,11 +14,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://archive.voodoowarez.com/node-openzipkin-thrift"
+		"url": "https://archive.voodoowarez.com/openzipkin-thriftrw"
 	},
 	"author": "rektide de la faye",
 	"license": "X",
 	"dependencies": {
+		"spread-repeat": "^1.0.0",
 		"thriftrw": "^2.5.2"
 	}
 }

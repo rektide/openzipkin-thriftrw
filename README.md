@@ -1,3 +1,5 @@
-# node-openzipkin-thrift
+# openzipkin-thriftrw
 
-Generated Node.js Thrift bindings/stubs for the OpenZipkin Tracer project.
+Node.js Thrift bindings/stubs for the OpenZipkin Tracer project.
+
+Not presently working.

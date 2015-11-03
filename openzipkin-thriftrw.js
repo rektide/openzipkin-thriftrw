@@ -16,7 +16,7 @@ function compile(file){
 			strict: false
 		})
 	}else{
-		thrift.compile( source)
+		thrift.compile( source, file)
 		thrift.link()
 	}
 	return thrift

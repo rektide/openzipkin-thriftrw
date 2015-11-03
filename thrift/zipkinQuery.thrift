@@ -1,1 +1,0 @@
-../zipkin/zipkin-thrift/src/main/thrift/com/twitter/zipkin/zipkinQuery.thrift

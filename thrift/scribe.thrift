@@ -1,1 +1,1 @@
-../zipkin/zipkin-thrift/src/main/thrift/com/twitter/zipkin/scribe.thrift
+../zipkin/zipkin-receiver-scribe/src/main/thrift/com/twitter/zipkin/scribe.thrift

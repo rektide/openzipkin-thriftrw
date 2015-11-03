@@ -23,8 +23,9 @@ function compile(file){
 }
 
 var
-  files= ["scribe", "zipkinDependencies", "zipkinCore", "zipkinCollector", "zipkinQuery"]
+  files= ["scribe", "zipkinDependencies", "zipkinCore"]
 files.forEach( function(file){
+	console.log(file)
 	compile( file)
 })
 

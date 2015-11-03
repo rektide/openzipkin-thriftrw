@@ -1,6 +1,6 @@
 {
 	"name": "openzipkin-thriftrw",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Generated Thrifrw Thrift stubs for the OpenZipkin codebase",
 	"keywords": [
 		"openzipkin",

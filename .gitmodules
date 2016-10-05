@@ -1,3 +1,6 @@
+[submodule "scribe"]
+	path = scribe
+	url = https://github.com/facebookarchive/scribe
 [submodule "zipkin"]
 	path = zipkin
-	url = https://github.com/openzipkin/zipkin
+	url = https://github.com/openzipkin/zipkin-api

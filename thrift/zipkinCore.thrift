@@ -1,1 +1,1 @@
-../zipkin/zipkin-thrift/src/main/thrift/com/twitter/zipkin/zipkinCore.thrift
+../zipkin/thrift/zipkinCore.thrift

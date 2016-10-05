@@ -20,6 +20,6 @@
 	"license": "X",
 	"dependencies": {
 		"spread-repeat": "^1.0.0",
-		"thriftrw": "^2.5.2"
+		"thriftrw": "^3.4.3"
 	}
 }
